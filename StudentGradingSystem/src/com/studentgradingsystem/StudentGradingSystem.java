@@ -9,11 +9,11 @@ import java.util.Scanner;
 	        
 	        System.out.println("Enter number of Students:");
 	        int totalStudents = scanner.nextInt();
-	        scanner.nextLine(); 
+//	        scanner.nextLine()
 	        
 	        System.out.println("Enter number of Subjects:");
 	        int totalSubjects = scanner.nextInt();
-	        scanner.nextLine(); 
+	      scanner.nextLine(); 
 	        
 	        String[] studentNames = new String[totalStudents];
 	        int[] totalMarks = new int[totalStudents];
